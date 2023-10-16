@@ -1,0 +1,45 @@
+#gameBox {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+#buttons {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    z-index: 1;
+}
+
+.numberButton {
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    background-color: rgb(155, 170, 162);
+}
+
+#removeButton {
+    width: 70px;
+    height: 40px;
+    font-size: 24px;
+    background-color: rgb(155, 170, 162);
+}
+
+#result{
+    flex-direction: column;
+    width:450px;
+    z-index: 1;
+}
+
+#background {
+    height: 110vh;
+    background: url(image/baseball.jpg) no-repeat center;
+    background-size: cover;
+}

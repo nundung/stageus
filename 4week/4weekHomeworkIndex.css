@@ -1,0 +1,88 @@
+
+#head {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#title {
+    font-size: 46px;
+    font-weight: 1000;
+    margin-top: 80px;
+    color: white;
+}
+
+#puzzleOriginalImage {
+    height: 200px;
+}
+
+.levelSelectButton {
+    width: 100px;
+    background-color: aquamarine;
+}
+
+#background {
+    height: 97vh;
+    /* CSS 속성 height: 100vh;뷰포트높이(Viewport Height)는 현재 브라우저 창의 높이를 100%로 설정.
+    height: 100%;을 사용하면 높이가 상위 요소의 높이에 따라 조절되므로 부모 요소의 크기에 따라 변할 수 있습니다. 
+    그러나 height: 100vh;를 사용하면 항상 현재 브라우저 창의 높이에 맞게 설정됩니다. 
+    그래서 화면 크기를 조절해도 이미지는 항상 현재 뷰포트 크기에 맞춰진 상태로 유지.*/
+    background: url(image/spongeBackground.jpg) no-repeat center; 
+    /* no-repeat은 이미지를 반복해서 나오지 않게 함.
+    center는 이미지를 가운데 배치.*/
+    background-size: cover;
+    text-align: center;
+}
+
+#gameBox {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#puzzleBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.puzzleBox0 {
+    max-width: 400px;
+}
+
+.puzzleBox1 {
+    max-width: 500px;
+}
+
+.puzzleBox2 {
+    max-width: 600px;
+}
+
+.puzzles {
+    width: 100px;  
+    height: 100px;
+    border: 1px solid black;
+}
+
+.transparent {
+    width: 100px;
+    height: 100px;
+}
+.images {
+    width: 100px;
+    height: 100px;
+}
+
+#resultBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.results {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#success {
+    text-align: center;
+}

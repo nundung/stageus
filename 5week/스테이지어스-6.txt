@@ -1,0 +1,202 @@
+포트폴리오 & 학점
+- 포트폴리오
+ㄴ 준비를 해야한다는건 누구나 알지만, 뭘 준비해야하는지는 잘 모름
+ㄴ 포트폴리오 목적 : 경력이라던지, 취직할 때 보여줄 것
+ㄴ 이러한 목적으로 봤을 때 포트폴리오에 들어가는 내용
+ : 수상내역, 공모전, 해커톤 등 (토익, 어학연수, 기업인턴 등등)
+ (겉만 번지르르한 것들) 잘못된 것들
+
+- 포트폴리오에 대한 고정관념을 깨라
+ㄴ 팀장님이 생각하는 포트폴리오의 목표 : 나를 PR하는 수단
+
+- 목표를 이렇게 잡으면, 포폴의 내용이 달라짐
+ㄴ 내가 공부한 내용
+ㄴ 내가 작성한 코드
+ㄴ 내가 만든 프로그램
+
+1) 기술블로그 - 내가 공부한 거 올리는거
+2) 깃허브 - 코드를 올리는 온라인 커뮤니티
+
+- 경영학과 친구
+-> 토익, 어학연수, 기업인턴 등등
+ㄴ 마케팅, 재무제표
+
+- 19년도 대기업 재무제표 분석해서, 얘네가 어디에 투자했는지 그리고 어디가 이상한지
+- 유니콘 기업들이 어떻게 유니콘이 되었는지 마케팅 조사
+
+-생각보다 남들이 하는 것 보단 독특한 방식이 잘 먹힌다.
+
+학점
+- 학점이 그렇게 중요하진 않음
+ㄴ 이렇게 개발공부하면서, 학점까지 챙기는건 괴물
+
+- 학점이 4점이 넘는다 : 개발을 그렇게 잘하진 않겠구나
+- 학점이 2점대 : 개발 졸라잘하는 괴물 / 한량
+
+
+프로토콜
+ - 정의
+ ㄴ 인터넷 통신 표준
+ ㄴ 통신 방법이 다르다는 것은, 서로 통신을 할 수 없다는 것
+ ㄴ 표준 : 공통으로 사용하는 규약 (핸드폰 충전 단자)
+ 
+ - 종류
+ ㄴ 통신 방법마다 프로토콜이 정해져 있음
+ (이메일 통신, 파일 전송 통신, 스트리밍 통신 등)
+ ㄴ 우리가 현재 putty를 쓰고 있지만 ssh 프로토콜에 대해서 아는가?
+
+ - 이미 알고 있는 프로토콜
+ 1. http : 단방향 데이터 전송 프로토콜
+ 2. ssh : 원격 접속 프로토콜
+ 3. FTP : 파일 전송 프로토콜
+
+ - 이외에도 다양한 프로토콜이 존재
+ ㄴ 새로운 통신 방법이 나오면, 당연히 프로토콜도 같이 나옴
+ (VoLTE 프로토콜 : 4G통신 프로토콜)
+
+ - 우리가 알아야 하는 것
+ 1. 각 프로토콜의 정의와 쓰임
+ 2. 각 프로토콜의 포트
+
+ - SFTP
+ ㄴ 원격접속 상태의 파일 전송 프로토콜
+ ㄴ 우리는 지금 이 프로토콜을 파일질라라는 프로그램을 통해서 사용하고 있음
+ ㄴ 이 파일질라가 코딩에 있어서는 그렇게 좋은 프로그램은 아님
+ 
+ - ftp-simple 프로그램
+ ㄴ VSC Extension (DLC, 추가로 붙일 수 있는 기능)
+ ㄴ 코드에 대해서 SFTP기능을 하는
+
+ 끊을 때는 파일 눌러서 클로즈 누르면 끊김 그 다음에 f1누르면 됨
+
+
+
+
+데이터베이스
+- 정의 
+ ㄴ데이터 저장소
+ ㄴ 프로그램이 돌아가는 중에 데이터를 저장하기 위해 사용하는 것 : 변수
+ ㄴ 변수는 메모리에 만들어 짐
+ ㄴ 메모리의 단점 : 휘발성 (영구히 보존할 수 없음)
+ ㄴ 데이터를 반영구적으로 보관하고 싶을 때 사용하는게 데이터베이스 (데이터베이스는 보조메모리에 저장이 됨)
+
+ - 데이터베이스의 종류
+ 1. Relational Database (80~90 %) 정리가 되있음
+ 2. Document Database
+
+- Relational Database 종류
+1. MySQL : 가장 보편적인 성능, 가장 많은 개발자가 사용
+2. Oracle : MySQL보다 성능이 좋음, 유료
+3. PostgreSQL : MySQL보다 다양한 기능을 제공, MySQL보다 데이터가 적을 때 빠름
+4. SQLite : 로컬 데이터베이스 전용
+5. MariaDB
+6. 등등
+
+ㄴ 아무튼 이처럼, DB마다 각 장단점이 다르기 때문에, 우리는 우리의 상황에 맞게 db를 선택하는 능력이 있어야 함
+
+
+MariaDB
+
+-정의 
+ㄴ MySQL을 그대로 클론한 데이터베이스
+ㄴ 그렇기 때문에 MySQL과 사용방법이 같다.
+
+
+DB랑 서버랑 통신하고 서버에서 요청받은 걸 데이터베이스에 전달한다
+그래서 프론트엔드랑 DB랑 직접적으로 통신할 수는 없음
+
+table형태로 제작됨
+column은 소제목
+Row는 데이터를 의미합니다.
+
+- SQL
+ㄴ Relational Database 전용 언어
+ㄴ 모든 Relational Database가 이 SQL을 사용
+ㄴ 궁극적으로 백엔드 개발자의 실력이라고 부르는 부분
+(시간이 남으면 SQL을 공부해라)
+
+데이터베이스를 설치할 때는 
+데이터베이스 프로그램이랑 라이브 서버가 필요함
+서버 안에 라이브 서버 느낌으로 설치되어있는 느낌
+서버가 털려도 데이터베이스는 털리지 않도록
+
+sudo apt install libmariadb-java
+
+CREATE DATABASE web;
+CREATE USER 'stageus'@'%' IDENTIFIED BY '1234';
+GRANT all PRIVILEGES ON web.* TO 'stageus'@'%';
+
+SHOW DATABASES;
+QUIT
+ubuntu@ip-172-31-43-157:~$ mysql -u stageus -p       mysql -u -root -p 하면 비번 치라고 나옴
+이럴 땐 그냥 sudo mysqls하면 됨.
+
+SHOW DATABASES;
+USE web;
+SHOW TABLES;
+
+CREATE TABLE account (id TEXT, pw TEXT); 로 테이블 생성
+SHOW TABLES;
+DESC account;
+
+DESC account;
+INSERT INTO account (id, pw) VALUES ('test', '1234');
+INSERT INTO account (id, pw) VALUES ('test', '123456');
+INSERT INTO account (id, pw) VALUES ('test2', '123456');
+SELECT * FROM account;
+SELECT * FROM account WHERE id='test'
+SELECT * FROM account WHERE id='test' AMD pw='1234'
+SELECT * FROM account WHERE id='test' AMD pw='1234' at line 1
+UPDATE account SET pw='111'
+UPDATE account SET pw='****' WHERE id='test2';
+DELETE FROM account WHERE id='test';
+
+SHOW TABLES;
+
+
+SHOW DATABASES;
+SHOW TABLES;
+
+USE web;
+
+create user 'stageus'@'%' identify by '1234'
+나머지는 시스템 데이터베이스
+DESC account;
+명령어는 대문자로 사용자명 같은거는 소문자로 적어라
+
+- CRUD 
+ㄴ 데이터베이스가 기본적으로 해줘야하는 4개의 기능
+Create : 값을 삽입
+Read : 값을 일기
+Update : 값을 수정
+Delete : 값을 삭제
+
+row에 대해서 특정해올수 있는 수단이 필요하다 그걸 찾아봐야함
+database를 배웠는데 database에 대해 잘 알아야 함
+일단 지금 집중해야할 것은 테이블을 설계하는 능력임
+table을 몇개 만들 것 인지 등등
+
+과제
+- database설계 해오기
+- 기능을 불러드리겠습니다 테이블 만들어오셈
+1. 로그인
+2. 회원가입
+3. 아이디찾기 비밀번호 보기
+4. 내정보 보기
+5. 내정보 수정
+6. 회원탈퇴기능
+7. 게시글 읽기 쓰기 수정 삭제
+8. 댓글 읽기 쓰기 수정 삭제
+
+두번째 자료형 텍스트처럼
+자료형을 공부해보고 가장 알맞은 자료형 찾아서 공부해오기
+
+세번째 primary key , forign key, auto incremant 공부해오고 과제에 적용해오기
+
+database하나 더 만들어서 과제해오세요.
+
+남는 시간에 뭐하냐?
+프론트엔드 대충 구성해오기
+
+
+

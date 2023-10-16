@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>6weekcHomework</title>
+    <style>
+        .button {
+            width: 100px;
+            background-color: pink;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body id = "body">
+    <h1>jun Tae Eun</h1>
+    <script>
+        for (var i=2; i<5; i++) {
+            var button = document.createElement("button")
+            button.className = "button"
+            button.innerHTML = i
+            button.addEventListener("click", moveEvent)
+            document.getElementById("body").appendChild(button)
+        }
+        function moveEvent(e) {
+            var n = e.target.innerHTML
+            console.log(n) 
+            location.href = "C:/Users/User/Desktop/stageus/"+n+"week/"+n+"weekHomework.html"
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+css
+
+
+- 정의 :
+HTML의 역할 : 틀 만드는 작업
+css의 역할 : HTML로 만들어진 dom 구조를 꾸미는 역할)
+HTML에서는 DOM구조를 잘 짜는게 개발자의 역할
+css는 단순히 많이 아는게 중요
+다 알필요까진 없지만, 같은 기능을 만들더라도 누구는 조금 더 쉽게 만들고 있을 수 있음.
+
+
+- css의 동작구조 :
+HTML이 css를 찾아서 가져오는 형태X
+CSS가 자기가 붙을 수 있는 곳에 가서 붙는 형태
+(한 번 설정해 놓으면 알아서 적용 됨.)
+
+1. css만을 미리 먼저 작성해 둘 수 있음.
+2. 한 번 작성한 것을 재활용 할 수 있음.
+
+
+- 작성 방법 :
+1. inline-style (절대 쓰면 안 되는 방법) (개발자들의 유지보수를 망침)
+(수정하기 위해 봐야하는 영역이 늘어남)
+2. <HEAD>태그를 이용하는 방법
+3. 파일 분할 ★
+<head>태그에 적어 놓으면 수정을 여러번 해줘야 하기 때문에 css에 파일을 분할해야 나중에 수정할 때 편하다.
+
+
+-선택자 (selector)
+css에서 자기가 어디에 가서 붙어야 하는지를 적어주는 역할
+
+1. tag
+2. ID
+3.class
+
+id는 이름이 겹치면 안 됨. 이 페이지에서 유일해야함.
+id는 하나만 줄 때,
+
+tag가 가장 약함.
+class는 여러가지 줄 때, 중간 정도 약함. 
+id가 제일 셈.
+
+h1태그
+seo적으로 써야함
+
+css에 미리 적용해놈.
+
+class로 지정해 놓고 id로 메김
+
+덮어씌워감.
+
+설정 안 하면 inline
+input은 inline
+div는 block
+image도 inline
+
+display는 4개의 값이 존재한다.
+
+디스플레이 플랙스를 찾아서 적용하는 것이 과제.
+
+
+fixed해놓으면 가로 길이가 fit-content가 됨.
+
+static
+
+fixed
+
+relative
+
+absolute 배웟음
+
+잘 알려지지 않은 css팁
+
+span 사이에는 4픽셀의 공간이 생긴다.
+
+2픽셀 차이가 난다.
+
+inline 은 글자로 인식 됨.
+inline tag를 가운데로 보내는 법은 부모 태그에 text align 을 준다.
+
+block tag는 자기자신에게 margin-left, margin-right auto로 준다.
+div에 여백이 있어야지 이동할 수가 있다.
+
+과제
+
+
+display flex 기능 넣어오기.
+
+inline과 block 두 가지가 있다.
+
+inline은 글자로 인식 된다.
+
+block은 자기자신에게 margin 태그를 쓰면 됨.

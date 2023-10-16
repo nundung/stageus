@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mainPage</title>
+    <style>
+	#body {
+		height: 94vh;
+		text-align: center;
+		background: url(image/babycats.jpg) no-repeat center;
+		background-size: cover;
+		margin-bottom: 10px;
+	}
+	#title {	
+		font-size: 46px;
+		color: black;
+		font-weight: bold;
+		text-shadow: -1px 0px pink, 0px 1px pink, 1px 0px pink, 0px -1px pink;
+	}
+	.text {
+		color: pink;
+		font-size: 30px;
+		margin: 20px;
+	}
+	.button {
+		width: 200px;
+		height: 100px;
+		font-size: 24px;
+		background-color: pink;
+		cursor: pointer;
+		margin: 20px;
+		border-radius: 10px;
+	}
+    </style>
+</head>
+<body id="body">
+	<h1 id="title">Jung Tae Eun (정태은)</h1>
+	<p class="text">생년월일 : 2002. 8. 9</p>
+	<p class="text">반려동물 : 슈가 (고양이)</p>
+	<p class="text">취미 : 애니보기, 게임하기, 노래듣기</p>
+	<p class="text">특기 : 누워있기, 크로플 먹기</p>
+	<p class="text">이상입니다.</p>
+    <script>
+	for (var i=1; i<5; i++) {
+		var button = document.createElement("button")
+		button.className = "button"
+		button.innerHTML = i + "week"
+		button.addEventListener("click", moveEvent)
+		document.getElementById("body").appendChild(button)
+	}
+	function moveEvent(e) {
+            var n = e.target.innerHTML
+            console.log(n)
+            location.href = n + "Homework.html"
+        }
+    </script>
+</body>
+</html>

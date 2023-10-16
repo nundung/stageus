@@ -1,0 +1,44 @@
+.textalign {
+    text-align: center;
+}
+
+#naver {
+    height: 100px;
+}
+
+.text {
+    width: 294px;
+    height: 20px;
+}
+
+#login {
+    width: 300px;
+    height: 30px;
+    background-color: #2db400;
+}
+
+#login2 {
+    text-align: left;
+    width: 147px;
+    display: inline-block;
+}
+
+#ip {
+    text-align: right;
+    width: 147px;
+    display: inline-block;
+}
+
+.container {
+    position: relative; /* .box를 포함하는 .container를 relative로 설정 */
+    width: 100%;
+}
+
+.box {
+    position: absolute;
+    bottom: 0; /* 아래로 정렬 */
+    left: 0; /* 왼쪽으로 정렬 (원하는 위치에 따라 조절 가능) */
+    background-color: #f0f0f0; /* 배경 색상 예시 */
+    padding: 10px; /* 내용과 상자 사이의 간격 설정 (선택 사항) */
+    width: 100%; /* 가로 너비 100% 설정 */
+}

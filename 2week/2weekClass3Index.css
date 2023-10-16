@@ -1,0 +1,41 @@
+#box1 {
+    background-color: red;
+    display:block;
+}
+
+#box2 {
+    background-color: red;
+    display: inline-block;
+    width: 200px;
+} 
+
+#box {
+    background-color:#ff0000;
+    width: 400px;   
+    padding:30px; /* padding은 안 쪽에 여백을 줌. */
+    border: 3px solid blueviolet;
+    margin-top: 30px; /* margin 은 상하좌우에 여백을 줌. */
+    margin-left: 30px;
+    /* 패딩이랑 보더랑 width포함하면 466px(실제값 : 464.8px)이다.  */
+    /* margin은 포함 안 됨. */
+
+    height: fit-content;
+    /* height: 50%; height는 퍼센트가 안 먹힘 부모가 무한대라서 */
+    /* fit-content는 span이랑 똑같아짐  */
+    
+
+    color: aqua;
+    font-size: 20px; /* font-size는 16px이 기본. */
+    font-weight: 600;
+    text-align: right;
+    border-radius: 10px;
+     /* border-radius는 모서리를 둥글게 만들어 줌. */
+} 
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>숫자야구게임</title>
+    <link rel="stylesheet" type="text/css" href="3weekHomeworkIndex.css">
+</head>
+<body id="background">
+    <div id="gameBox">
+        <div id="buttons">
+            <!--this는 이 태그 자체를 매개변수로 보내는 명령어. this는 쓰면 안 됨 리액트에서 못 사용함. 차라리 event를 넣어서 처리를 해라-->
+            <button class="numberButton" onclick="addEvent(event)">1</button>
+            <button class="numberButton" onclick="addEvent(event)">2</button>
+            <button class="numberButton" onclick="addEvent(event)">3</button>
+            <button class="numberButton" onclick="addEvent(event)">4</button>
+            <button class="numberButton" onclick="addEvent(event)">5</button>
+            <button class="numberButton" onclick="addEvent(event)">6</button>
+            <button class="numberButton" onclick="addEvent(event)">7</button>
+            <button class="numberButton" onclick="addEvent(event)">8</button>
+            <button class="numberButton" onclick="addEvent(event)">9</button>
+            <button id="removeButton" onclick="removeEvent()">←</button>
+            <h1 id="nowInsert"></h1>
+            <h1 id="nowResult"></h1>
+        </div>
+        <h1 id="historyBox"></h1>
+    </div>
+    <h1 id="sucess"></h1>
+<!-- <body id="background">
+    <div id="gameBox">
+        <div id="buttons"></div>
+        <div id="numberButtom">
+            <h1 id="nowInsert"></h1>
+            <h1 id="nowResult"></h1>
+        </div>
+        <h1 id="historyBox"></h1>
+    </div> -->
+    <script src="3weekHomeworkIndex.js"></script>
+</body>
+</html>

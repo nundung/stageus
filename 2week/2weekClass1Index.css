@@ -1,0 +1,15 @@
+.boxes {
+    font-size: 50px;
+} 
+
+.box1 {
+    font-size: 30px;
+}
+#box2 {
+    font-size: 30px;
+    background-color: red;
+} 
+
+div {
+    background-color: aqua;
+}

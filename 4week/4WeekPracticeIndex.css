@@ -1,0 +1,93 @@
+
+#head {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#title {
+    font-size: 46px;
+    font-weight: 1000;
+    margin-top: 80px;
+    color: white;
+}
+
+#puzzleOriginalImage {
+    height: 200px;
+}
+
+.levelSelectButton {
+    width: 100px;
+    background-color: aquamarine;
+}
+
+#background {
+    height: 97vh;
+    background: url(image/spongeBackground.jpg) no-repeat center; 
+    background-size: cover;
+    text-align: center;
+}
+
+#gameBox {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#puzzleBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.puzzleBox0 {
+    max-width: 400px;
+}
+
+.puzzleBox1 {
+    max-width: 500px;
+}
+
+.puzzleBox2 {
+    max-width: 600px;
+}
+
+.puzzles {
+    width: 100px;  
+    height: 100px;
+    border: 1px solid black;
+}
+
+.transparent {
+    width: 100px;
+    height: 100px;
+}
+
+.images {
+    width: 100px;
+    height: 100px;
+}
+
+#resultBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+.resultBox0 {
+    max-width: 400px;
+}
+
+.resultBox1 {
+    max-width: 500px;
+}
+
+.resultBox2 {
+    max-width: 600px;
+}
+.results {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+#success {
+    text-align: center;
+}

@@ -1,0 +1,47 @@
+#naver {
+    height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.blockalign {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#textalign {
+    text-align: center;
+}
+
+.class1 {
+    width: 294px;
+    height: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#login {
+    background-color: #2db400;
+    text-align: center;
+    padding-right: 50px;
+    padding-left: 50px;
+    height: 30px;
+    width: 300px;
+}
+
+#box1 {
+    text-align: left;
+    height: 20px;
+    width: 147px;
+    display: inline-block;
+}
+
+#box2 {
+    text-align: right;
+    height: 20px;
+    width: 147px;
+    display: inline-block;
+}

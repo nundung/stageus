@@ -1,0 +1,61 @@
+
+
+/* 부모 요소인 div.container를 Flex Container라고 부르고, 
+자식 요소인 div.item들을 Flex Item이라고 함 */
+
+
+.container {
+    display: flex;
+    /* display: inline-flex; inline-block처럼 동작 */
+    /* display: flex; block처럼 동작 */
+
+    /* flex-direction: row; 가로정렬, 기본값 */
+    /* flex-direction: column; 세로정렬 */
+	/* flex-direction: row-reverse; 가로정렬, 반대방향 */
+	/* flex-direction: column-reverse; 세로정렬, 반대방향 */
+
+    /* flex-wrap: wrap; */
+    /* flex-wrap: nowrap; 줄바꿈을 하지 않음 */
+    /* flex-wrap: wrap-reverse; 줄바꿈을 반대로함 */
+
+    flex-flow: row wrap; 
+    /* flex-flow: ; */
+    /* flex-direction과 flex-wrap을 한꺼번에 지정할 수 있는 단축 속성 */
+
+    justify-content: space-evenly;
+    /* justify-content: flex-start; 왼쪽 정렬, 기본값 */
+	/* justify-content: flex-end; 오른쪽 정렬 */
+	/* justify-content: center; 가운데 정렬 */
+	/* justify-content: space-between; 아이템들의 가로축 사이에 균일한 간격 */
+	/* justify-content: space-around; 아이템들의 둘레에 균일한 간격 */
+	/* justify-content: space-evenly; 아이템들의 사이와 양 끝에 균일한 간격 */
+
+    /* align-items: stretch; 아이템들이 수직축 방향으로 끝까지 늘어남, 기본값 */
+	/* align-items: flex-start; 아이템들을 시작점으로 정렬 */
+	/* align-items: flex-end; 아이템들을 끝으로 정렬 */
+	/* align-items: center; 아이템들을 가운데로 정렬 */
+	/* align-items: baseline; 아이템들을 텍스트 베이스라인 기준으로 정렬 */
+}
+
+.item {
+    word-wrap: break-word;
+    flex-basis:10px;
+    background-color: aqua;
+    flex-grow: 1;
+}
+
+.item:nth-child(1) { flex-grow: 1; }
+.item:nth-child(2) { flex-grow: 6; }
+
+#first {
+    background-color: yellow;
+    height: 30px;
+}
+
+#box {
+    position: relative;
+    top: 10px;
+    margin-top: 10px;
+    background-color: aquamarine;
+}
+
